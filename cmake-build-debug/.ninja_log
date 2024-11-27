@@ -1,0 +1,20 @@
+# ninja log v6
+10	138	7544439151269287	CMakeFiles/STM32CompabilityTest2.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj	e7c55f46bb025be0
+4	154	7544439151201664	CMakeFiles/STM32CompabilityTest2.elf.dir/Core/Src/main.c.obj	a5e1cf365916260
+15	171	7544439151309328	CMakeFiles/STM32CompabilityTest2.elf.dir/Core/Src/stm32f1xx_it.c.obj	d49ae536fac36e36
+38	180	7544439151549544	CMakeFiles/STM32CompabilityTest2.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj	a3bdcf6ebd3f219
+26	192	7544439151419437	CMakeFiles/STM32CompabilityTest2.elf.dir/Core/Src/sysmem.c.obj	de0a68e4b822d2ca
+20	202	7544439151369382	CMakeFiles/STM32CompabilityTest2.elf.dir/Core/Src/syscalls.c.obj	d62a4db19da7495b
+32	217	7544439151479480	CMakeFiles/STM32CompabilityTest2.elf.dir/Core/Src/system_stm32f1xx.c.obj	8c41346b784fe40a
+45	227	7544439151609597	CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj	b0eefea6f9333b59
+52	288	7544439151689671	CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj	75e7505150de7ff2
+59	292	7544439151749728	CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj	fb78deccce738444
+140	321	7544439152560461	CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj	66d08946d99da8e5
+193	335	7544439153090945	CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj	919b11cbf2d9bb01
+155	336	7544439152710603	CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj	1a469fd5d4d5b595
+172	367	7544439152880758	CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj	8e1e806aabee09df
+181	367	7544439152970838	CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj	349ca0774bd54c54
+202	378	7544439153191038	CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj	7f89149f244196b8
+227	387	7544439153431254	CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj	73da8d079cdaf1b7
+217	396	7544439153331165	CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj	d0a12478a765acc
+396	518	7544439155127117	STM32CompabilityTest2.elf	aa417a73920135a
