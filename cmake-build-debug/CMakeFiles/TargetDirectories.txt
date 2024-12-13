@@ -1,3 +1,6 @@
 C:/Users/Endie/CLionProjects/STM32CompabilityTest2/cmake-build-debug/CMakeFiles/STM32CompabilityTest2.elf.dir
 C:/Users/Endie/CLionProjects/STM32CompabilityTest2/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Endie/CLionProjects/STM32CompabilityTest2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Endie/CLionProjects/STM32CompabilityTest2/cmake-build-debug/Core/Src/foxstudios-core/CMakeFiles/foxstudios-core.dir
+C:/Users/Endie/CLionProjects/STM32CompabilityTest2/cmake-build-debug/Core/Src/foxstudios-core/CMakeFiles/edit_cache.dir
+C:/Users/Endie/CLionProjects/STM32CompabilityTest2/cmake-build-debug/Core/Src/foxstudios-core/CMakeFiles/rebuild_cache.dir

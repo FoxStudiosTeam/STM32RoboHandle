@@ -1,1 +1,1 @@
-openocd -f interface/stlink-v2.cfg -f board\stm32vldiscovery.cfg
+openocd -f interface/stlink.cfg -f board/stm32vldiscovery.cfg -c "adapter_khz 4" -c "reset_config srst_only srst_nogate connect_assert_srst" -c "program C:\Users\Endie\CLionProjects\STM32CompabilityTest2\cmake-build-debug\STM32CompabilityTest2.elf verify reset exit"

@@ -55,7 +55,16 @@ add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB)
 
 file(GLOB_RECURSE SOURCES "Core/*.*" "Drivers/*.*")
 
+add_subdirectory(Core/Src/foxstudios-core)
+
 set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F103C8TX_FLASH.ld)
+
+set(SOURCE_FILES
+        Core/Inc/led_utils.h
+        Core/Inc/i2c_utils.h
+        Core/Src/foxstudios-core/led_utils.c
+        Core/Src/foxstudios-core/i2c_utils.c
+)
 
 add_link_options(-Wl,-gc-sections,--print-memory-usage,-Map=${PROJECT_BINARY_DIR}/${PROJECT_NAME}.map)
 add_link_options(-mcpu=cortex-m3 -mthumb -mthumb-interwork)
