@@ -20,10 +20,8 @@
 178	341	7545357710013463	CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj	7f89149f244196b8
 240	359	7545357710634025	CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj	73da8d079cdaf1b7
 235	382	7545357710583979	CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj	d0a12478a765acc
-441	804	7558154171158385	STM32CompabilityTest2.elf	aa417a73920135a
+15	366	7558220198508963	STM32CompabilityTest2.elf	af1e4e3bc671499a
 7	53	7558207151349293	CMakeFiles/STM32CompabilityTest2.elf.dir/Core/Src/foxstudios/led_utils.c.obj	7b347d6de15671c0
 3	83	7558207151319265	CMakeFiles/STM32CompabilityTest2.elf.dir/Core/Src/foxstudios/i2c_utils.c.obj	dbaef6f38795241c
-2	152	7558220197758279	build.ninja	fdbe589200529d3d
+2	135	7559436160721960	build.ninja	fdbe589200529d3d
 20	95	7558215116490977	CMakeFiles/STM32CompabilityTest2.elf.dir/Core/Src/Foxstudios/i2c_utils.c.obj	b7ce503f4029e85a
-2	135	7558220197758279	build.ninja	fdbe589200529d3d
-15	366	7558220198508963	STM32CompabilityTest2.elf	af1e4e3bc671499a
