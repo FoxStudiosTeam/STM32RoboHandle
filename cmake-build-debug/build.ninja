@@ -49,27 +49,11 @@ cmake_ninja_workdir = C$:/Users/Endie/CLionProjects/STM32CompabilityTest2/cmake-
 
 build cmake_object_order_depends_target_STM32CompabilityTest2.elf: phony || .
 
-build CMakeFiles/STM32CompabilityTest2.elf.dir/Core/Src/foxstudios-core/i2c_utils.c.obj: C_COMPILER__STM32CompabilityTest2.2eelf_unscanned_Debug C$:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Src/foxstudios-core/i2c_utils.c || cmake_object_order_depends_target_STM32CompabilityTest2.elf
-  DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
-  DEP_FILE = CMakeFiles\STM32CompabilityTest2.elf.dir\Core\Src\foxstudios-core\i2c_utils.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
-  INCLUDES = -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Include
-  OBJECT_DIR = CMakeFiles\STM32CompabilityTest2.elf.dir
-  OBJECT_FILE_DIR = CMakeFiles\STM32CompabilityTest2.elf.dir\Core\Src\foxstudios-core
-
-build CMakeFiles/STM32CompabilityTest2.elf.dir/Core/Src/foxstudios-core/led_utils.c.obj: C_COMPILER__STM32CompabilityTest2.2eelf_unscanned_Debug C$:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Src/foxstudios-core/led_utils.c || cmake_object_order_depends_target_STM32CompabilityTest2.elf
-  DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
-  DEP_FILE = CMakeFiles\STM32CompabilityTest2.elf.dir\Core\Src\foxstudios-core\led_utils.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
-  INCLUDES = -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Include
-  OBJECT_DIR = CMakeFiles\STM32CompabilityTest2.elf.dir
-  OBJECT_FILE_DIR = CMakeFiles\STM32CompabilityTest2.elf.dir\Core\Src\foxstudios-core
-
 build CMakeFiles/STM32CompabilityTest2.elf.dir/Core/Src/main.c.obj: C_COMPILER__STM32CompabilityTest2.2eelf_unscanned_Debug C$:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Src/main.c || cmake_object_order_depends_target_STM32CompabilityTest2.elf
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\STM32CompabilityTest2.elf.dir\Core\Src\main.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
-  INCLUDES = -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Include
+  INCLUDES = -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/OLED1306/Inc
   OBJECT_DIR = CMakeFiles\STM32CompabilityTest2.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\STM32CompabilityTest2.elf.dir\Core\Src
 
@@ -77,7 +61,7 @@ build CMakeFiles/STM32CompabilityTest2.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj:
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\STM32CompabilityTest2.elf.dir\Core\Src\stm32f1xx_hal_msp.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
-  INCLUDES = -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Include
+  INCLUDES = -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/OLED1306/Inc
   OBJECT_DIR = CMakeFiles\STM32CompabilityTest2.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\STM32CompabilityTest2.elf.dir\Core\Src
 
@@ -85,7 +69,7 @@ build CMakeFiles/STM32CompabilityTest2.elf.dir/Core/Src/stm32f1xx_it.c.obj: C_CO
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\STM32CompabilityTest2.elf.dir\Core\Src\stm32f1xx_it.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
-  INCLUDES = -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Include
+  INCLUDES = -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/OLED1306/Inc
   OBJECT_DIR = CMakeFiles\STM32CompabilityTest2.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\STM32CompabilityTest2.elf.dir\Core\Src
 
@@ -93,7 +77,7 @@ build CMakeFiles/STM32CompabilityTest2.elf.dir/Core/Src/syscalls.c.obj: C_COMPIL
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\STM32CompabilityTest2.elf.dir\Core\Src\syscalls.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
-  INCLUDES = -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Include
+  INCLUDES = -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/OLED1306/Inc
   OBJECT_DIR = CMakeFiles\STM32CompabilityTest2.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\STM32CompabilityTest2.elf.dir\Core\Src
 
@@ -101,7 +85,7 @@ build CMakeFiles/STM32CompabilityTest2.elf.dir/Core/Src/sysmem.c.obj: C_COMPILER
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\STM32CompabilityTest2.elf.dir\Core\Src\sysmem.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
-  INCLUDES = -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Include
+  INCLUDES = -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/OLED1306/Inc
   OBJECT_DIR = CMakeFiles\STM32CompabilityTest2.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\STM32CompabilityTest2.elf.dir\Core\Src
 
@@ -109,7 +93,7 @@ build CMakeFiles/STM32CompabilityTest2.elf.dir/Core/Src/system_stm32f1xx.c.obj: 
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\STM32CompabilityTest2.elf.dir\Core\Src\system_stm32f1xx.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
-  INCLUDES = -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Include
+  INCLUDES = -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/OLED1306/Inc
   OBJECT_DIR = CMakeFiles\STM32CompabilityTest2.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\STM32CompabilityTest2.elf.dir\Core\Src
 
@@ -117,15 +101,39 @@ build CMakeFiles/STM32CompabilityTest2.elf.dir/Core/Startup/startup_stm32f103c8t
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\STM32CompabilityTest2.elf.dir\Core\Startup\startup_stm32f103c8tx.s.obj.d
   FLAGS = -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -x assembler-with-cpp -Og -g
-  INCLUDES = -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Include
+  INCLUDES = -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/OLED1306/Inc
   OBJECT_DIR = CMakeFiles\STM32CompabilityTest2.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\STM32CompabilityTest2.elf.dir\Core\Startup
+
+build CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/OLED1306/Src/ssd1306.c.obj: C_COMPILER__STM32CompabilityTest2.2eelf_unscanned_Debug C$:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/OLED1306/Src/ssd1306.c || cmake_object_order_depends_target_STM32CompabilityTest2.elf
+  DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\STM32CompabilityTest2.elf.dir\Drivers\OLED1306\Src\ssd1306.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
+  INCLUDES = -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/OLED1306/Inc
+  OBJECT_DIR = CMakeFiles\STM32CompabilityTest2.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\STM32CompabilityTest2.elf.dir\Drivers\OLED1306\Src
+
+build CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/OLED1306/Src/ssd1306_fonts.c.obj: C_COMPILER__STM32CompabilityTest2.2eelf_unscanned_Debug C$:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/OLED1306/Src/ssd1306_fonts.c || cmake_object_order_depends_target_STM32CompabilityTest2.elf
+  DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\STM32CompabilityTest2.elf.dir\Drivers\OLED1306\Src\ssd1306_fonts.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
+  INCLUDES = -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/OLED1306/Inc
+  OBJECT_DIR = CMakeFiles\STM32CompabilityTest2.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\STM32CompabilityTest2.elf.dir\Drivers\OLED1306\Src
+
+build CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/OLED1306/Src/ssd1306_tests.c.obj: C_COMPILER__STM32CompabilityTest2.2eelf_unscanned_Debug C$:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/OLED1306/Src/ssd1306_tests.c || cmake_object_order_depends_target_STM32CompabilityTest2.elf
+  DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\STM32CompabilityTest2.elf.dir\Drivers\OLED1306\Src\ssd1306_tests.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
+  INCLUDES = -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/OLED1306/Inc
+  OBJECT_DIR = CMakeFiles\STM32CompabilityTest2.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\STM32CompabilityTest2.elf.dir\Drivers\OLED1306\Src
 
 build CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: C_COMPILER__STM32CompabilityTest2.2eelf_unscanned_Debug C$:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c || cmake_object_order_depends_target_STM32CompabilityTest2.elf
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\STM32CompabilityTest2.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
-  INCLUDES = -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Include
+  INCLUDES = -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/OLED1306/Inc
   OBJECT_DIR = CMakeFiles\STM32CompabilityTest2.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\STM32CompabilityTest2.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
 
@@ -133,7 +141,7 @@ build CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\STM32CompabilityTest2.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
-  INCLUDES = -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Include
+  INCLUDES = -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/OLED1306/Inc
   OBJECT_DIR = CMakeFiles\STM32CompabilityTest2.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\STM32CompabilityTest2.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
 
@@ -141,7 +149,7 @@ build CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\STM32CompabilityTest2.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
-  INCLUDES = -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Include
+  INCLUDES = -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/OLED1306/Inc
   OBJECT_DIR = CMakeFiles\STM32CompabilityTest2.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\STM32CompabilityTest2.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
 
@@ -149,7 +157,7 @@ build CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\STM32CompabilityTest2.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
-  INCLUDES = -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Include
+  INCLUDES = -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/OLED1306/Inc
   OBJECT_DIR = CMakeFiles\STM32CompabilityTest2.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\STM32CompabilityTest2.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
 
@@ -157,7 +165,7 @@ build CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\STM32CompabilityTest2.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
-  INCLUDES = -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Include
+  INCLUDES = -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/OLED1306/Inc
   OBJECT_DIR = CMakeFiles\STM32CompabilityTest2.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\STM32CompabilityTest2.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
 
@@ -165,7 +173,7 @@ build CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\STM32CompabilityTest2.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
-  INCLUDES = -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Include
+  INCLUDES = -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/OLED1306/Inc
   OBJECT_DIR = CMakeFiles\STM32CompabilityTest2.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\STM32CompabilityTest2.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
 
@@ -173,7 +181,7 @@ build CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\STM32CompabilityTest2.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
-  INCLUDES = -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Include
+  INCLUDES = -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/OLED1306/Inc
   OBJECT_DIR = CMakeFiles\STM32CompabilityTest2.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\STM32CompabilityTest2.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
 
@@ -181,7 +189,15 @@ build CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\STM32CompabilityTest2.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
-  INCLUDES = -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Include
+  INCLUDES = -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/OLED1306/Inc
+  OBJECT_DIR = CMakeFiles\STM32CompabilityTest2.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\STM32CompabilityTest2.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
+
+build CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj: C_COMPILER__STM32CompabilityTest2.2eelf_unscanned_Debug C$:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c || cmake_object_order_depends_target_STM32CompabilityTest2.elf
+  DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\STM32CompabilityTest2.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
+  INCLUDES = -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/OLED1306/Inc
   OBJECT_DIR = CMakeFiles\STM32CompabilityTest2.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\STM32CompabilityTest2.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
 
@@ -189,7 +205,7 @@ build CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\STM32CompabilityTest2.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
-  INCLUDES = -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Include
+  INCLUDES = -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/OLED1306/Inc
   OBJECT_DIR = CMakeFiles\STM32CompabilityTest2.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\STM32CompabilityTest2.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
 
@@ -197,7 +213,7 @@ build CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\STM32CompabilityTest2.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
-  INCLUDES = -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Include
+  INCLUDES = -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/OLED1306/Inc
   OBJECT_DIR = CMakeFiles\STM32CompabilityTest2.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\STM32CompabilityTest2.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
 
@@ -205,7 +221,7 @@ build CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\STM32CompabilityTest2.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
-  INCLUDES = -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Include
+  INCLUDES = -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/OLED1306/Inc
   OBJECT_DIR = CMakeFiles\STM32CompabilityTest2.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\STM32CompabilityTest2.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src
 
@@ -217,7 +233,7 @@ build CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/
 #############################################
 # Link the executable STM32CompabilityTest2.elf
 
-build STM32CompabilityTest2.elf: C_EXECUTABLE_LINKER__STM32CompabilityTest2.2eelf_Debug CMakeFiles/STM32CompabilityTest2.elf.dir/Core/Src/foxstudios-core/i2c_utils.c.obj CMakeFiles/STM32CompabilityTest2.elf.dir/Core/Src/foxstudios-core/led_utils.c.obj CMakeFiles/STM32CompabilityTest2.elf.dir/Core/Src/main.c.obj CMakeFiles/STM32CompabilityTest2.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj CMakeFiles/STM32CompabilityTest2.elf.dir/Core/Src/stm32f1xx_it.c.obj CMakeFiles/STM32CompabilityTest2.elf.dir/Core/Src/syscalls.c.obj CMakeFiles/STM32CompabilityTest2.elf.dir/Core/Src/sysmem.c.obj CMakeFiles/STM32CompabilityTest2.elf.dir/Core/Src/system_stm32f1xx.c.obj CMakeFiles/STM32CompabilityTest2.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
+build STM32CompabilityTest2.elf: C_EXECUTABLE_LINKER__STM32CompabilityTest2.2eelf_Debug CMakeFiles/STM32CompabilityTest2.elf.dir/Core/Src/main.c.obj CMakeFiles/STM32CompabilityTest2.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj CMakeFiles/STM32CompabilityTest2.elf.dir/Core/Src/stm32f1xx_it.c.obj CMakeFiles/STM32CompabilityTest2.elf.dir/Core/Src/syscalls.c.obj CMakeFiles/STM32CompabilityTest2.elf.dir/Core/Src/sysmem.c.obj CMakeFiles/STM32CompabilityTest2.elf.dir/Core/Src/system_stm32f1xx.c.obj CMakeFiles/STM32CompabilityTest2.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/OLED1306/Src/ssd1306.c.obj CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/OLED1306/Src/ssd1306_fonts.c.obj CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/OLED1306/Src/ssd1306_tests.c.obj CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj CMakeFiles/STM32CompabilityTest2.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
   FLAGS = -g
   LINK_FLAGS = -Wl,-gc-sections,--print-memory-usage,-Map=C:/Users/Endie/CLionProjects/STM32CompabilityTest2/cmake-build-debug/STM32CompabilityTest2.map -mcpu=cortex-m3 -mthumb -mthumb-interwork -T C:/Users/Endie/CLionProjects/STM32CompabilityTest2/STM32F103C8TX_FLASH.ld
   OBJECT_DIR = CMakeFiles\STM32CompabilityTest2.elf.dir
@@ -250,80 +266,7 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
-# Write statements declared in CMakeLists.txt:
-# C:/Users/Endie/CLionProjects/STM32CompabilityTest2/CMakeLists.txt
-# =============================================================================
-
-# =============================================================================
-# Object build statements for STATIC_LIBRARY target foxstudios-core
-
-
-#############################################
-# Order-only phony target for foxstudios-core
-
-build cmake_object_order_depends_target_foxstudios-core: phony || .
-
-build Core/Src/foxstudios-core/CMakeFiles/foxstudios-core.dir/i2c_utils.c.obj: C_COMPILER__foxstudios-core_unscanned_Debug C$:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Src/foxstudios-core/i2c_utils.c || cmake_object_order_depends_target_foxstudios-core
-  DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
-  DEP_FILE = Core\Src\foxstudios-core\CMakeFiles\foxstudios-core.dir\i2c_utils.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
-  INCLUDES = -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Include
-  OBJECT_DIR = Core\Src\foxstudios-core\CMakeFiles\foxstudios-core.dir
-  OBJECT_FILE_DIR = Core\Src\foxstudios-core\CMakeFiles\foxstudios-core.dir
-
-build Core/Src/foxstudios-core/CMakeFiles/foxstudios-core.dir/led_utils.c.obj: C_COMPILER__foxstudios-core_unscanned_Debug C$:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Src/foxstudios-core/led_utils.c || cmake_object_order_depends_target_foxstudios-core
-  DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
-  DEP_FILE = Core\Src\foxstudios-core\CMakeFiles\foxstudios-core.dir\led_utils.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
-  INCLUDES = -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/STM32F1xx_HAL_Driver/Inc -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Device/ST/STM32F1xx/Include -IC:/Users/Endie/CLionProjects/STM32CompabilityTest2/Drivers/CMSIS/Include
-  OBJECT_DIR = Core\Src\foxstudios-core\CMakeFiles\foxstudios-core.dir
-  OBJECT_FILE_DIR = Core\Src\foxstudios-core\CMakeFiles\foxstudios-core.dir
-
-
-# =============================================================================
-# Link build statements for STATIC_LIBRARY target foxstudios-core
-
-
-#############################################
-# Link the static library Core\Src\foxstudios-core\libfoxstudios-core.a
-
-build Core/Src/foxstudios-core/libfoxstudios-core.a: C_STATIC_LIBRARY_LINKER__foxstudios-core_Debug Core/Src/foxstudios-core/CMakeFiles/foxstudios-core.dir/i2c_utils.c.obj Core/Src/foxstudios-core/CMakeFiles/foxstudios-core.dir/led_utils.c.obj
-  LANGUAGE_COMPILE_FLAGS = -g
-  OBJECT_DIR = Core\Src\foxstudios-core\CMakeFiles\foxstudios-core.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = Core\Src\foxstudios-core\libfoxstudios-core.a
-  TARGET_PDB = foxstudios-core.a.dbg
-
-
-#############################################
-# Utility command for edit_cache
-
-build Core/Src/foxstudios-core/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Endie\CLionProjects\STM32CompabilityTest2\cmake-build-debug\Core\Src\foxstudios-core && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
-  DESC = No interactive CMake dialog available...
-  restat = 1
-
-build Core/Src/foxstudios-core/edit_cache: phony Core/Src/foxstudios-core/CMakeFiles/edit_cache.util
-
-
-#############################################
-# Utility command for rebuild_cache
-
-build Core/Src/foxstudios-core/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Endie\CLionProjects\STM32CompabilityTest2\cmake-build-debug\Core\Src\foxstudios-core && "C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\Endie\CLionProjects\STM32CompabilityTest2 -BC:\Users\Endie\CLionProjects\STM32CompabilityTest2\cmake-build-debug"
-  DESC = Running CMake to regenerate build system...
-  pool = console
-  restat = 1
-
-build Core/Src/foxstudios-core/rebuild_cache: phony Core/Src/foxstudios-core/CMakeFiles/rebuild_cache.util
-
-# =============================================================================
 # Target aliases.
-
-build foxstudios-core: phony Core/Src/foxstudios-core/libfoxstudios-core.a
-
-build libfoxstudios-core.a: phony Core/Src/foxstudios-core/libfoxstudios-core.a
 
 # =============================================================================
 # Folder targets.
@@ -333,14 +276,7 @@ build libfoxstudios-core.a: phony Core/Src/foxstudios-core/libfoxstudios-core.a
 #############################################
 # Folder: C:/Users/Endie/CLionProjects/STM32CompabilityTest2/cmake-build-debug
 
-build all: phony STM32CompabilityTest2.elf Core/Src/foxstudios-core/all
-
-# =============================================================================
-
-#############################################
-# Folder: C:/Users/Endie/CLionProjects/STM32CompabilityTest2/cmake-build-debug/Core/Src/foxstudios-core
-
-build Core/Src/foxstudios-core/all: phony Core/Src/foxstudios-core/libfoxstudios-core.a
+build all: phony STM32CompabilityTest2.elf
 
 # =============================================================================
 # Built-in targets
@@ -349,14 +285,14 @@ build Core/Src/foxstudios-core/all: phony Core/Src/foxstudios-core/libfoxstudios
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeASMInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-ASM.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Generic.cmake C$:/Users/Endie/CLionProjects/STM32CompabilityTest2/CMakeLists.txt C$:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Src/foxstudios-core/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeASMCompiler.cmake CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeASMInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-ASM.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Generic.cmake C$:/Users/Endie/CLionProjects/STM32CompabilityTest2/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeASMCompiler.cmake CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeASMInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-ASM.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Generic.cmake C$:/Users/Endie/CLionProjects/STM32CompabilityTest2/CMakeLists.txt C$:/Users/Endie/CLionProjects/STM32CompabilityTest2/Core/Src/foxstudios-core/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeASMCompiler.cmake CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
+build C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeASMInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-ASM.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Generic.cmake C$:/Users/Endie/CLionProjects/STM32CompabilityTest2/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeASMCompiler.cmake CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
 
 
 #############################################
