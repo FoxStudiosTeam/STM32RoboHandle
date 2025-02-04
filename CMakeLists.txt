@@ -50,7 +50,8 @@ else ()
 endif ()
 
 include_directories(
-        Core/Inc Drivers/STM32F1xx_HAL_Driver/Inc/Legacy
+        Core/Inc
+        Drivers/STM32F1xx_HAL_Driver/Inc/Legacy
         Drivers/STM32F1xx_HAL_Driver/Inc
         Drivers/CMSIS/Device/ST/STM32F1xx/Include
         Drivers/CMSIS/Include
