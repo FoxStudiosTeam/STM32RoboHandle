@@ -26,9 +26,9 @@ void StatusScreenSetup(){
   HAL_Delay(500);
 
   int i = 0;
-  int size = (sizeof(char) * 100) + 8;
-  // 108/128
-  char* c = malloc(size);
+  int size = 32;
+  // 108/128 (sizeof(char) * 100) + 8
+  char c[size];
   while(1){
     ClearSection(size, cursorX, cursorY);
     ssd1306_SetCursor(cursorX,cursorY);
@@ -39,7 +39,7 @@ void StatusScreenSetup(){
       i = 0;
     }
     ssd1306_UpdateScreen();
-    HAL_Delay(1000);
+    HAL_Delay(500);
   }
 }
 
